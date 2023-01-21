@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2018-2021 Syberia Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Alert slide extras -->
+    <string name="volume_ringer_priority_only">Priority</string>
+    <string name="volume_ringer_alarms_only">Alarms</string>
+    <string name="volume_ringer_dnd">DnD</string>
+    <string name="tristate_flashlight">Torch</string>
+
+    <string name="statusbar_items_title">Statusbar icon</string>
+    <string name="status_bar_data_saver">Data saver</string>
+    <string name="status_bar_call_strength">Call strength</string>
+    <string name="status_bar_vpn">VPN</string>
+
+    <!-- Advanced restart -->
+    <string name="global_action_reboot">Restart</string>
+    <string name="global_action_reboot_system">System</string>
+    <string name="global_action_reboot_progress">Restarting\u2026</string>
+    <string name="global_action_reboot_recovery">Recovery</string>
+    <string name="global_action_reboot_recovery_progress">Restarting to recovery mode\u2026</string>
+    <string name="global_action_reboot_bootloader">Bootloader</string>
+    <string name="global_action_reboot_bootloader_progress">Restarting to bootloader mode\u2026</string>
+    <string name="global_action_reboot_fastboot">Fastbootd</string>
+    <string name="global_action_reboot_fastboot_progress">Restarting to fastbootd mode\u2026</string>
+    <string name="global_action_settings">Settings</string>
+    <string name="global_action_screenshot">Screenshot</string>
+    <string name="global_action_screenrecord">Screenrecord</string>
+    <string name="global_action_flashlight">Flashlight</string>
+
+
+    <!-- Screen record delete action -->
+    <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
+    <string name="screenrecord_delete_label">Delete</string>
+    <!-- A toast message shown after successfully deleting a screen recording [CHAR LIMIT=NONE] -->
+    <string name="screenrecord_delete_description">Screen recording deleted</string>
+
+    <!-- Screenshot delete action -->
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Delete</string>
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Delete screenshot</string>
+
+
+    <string name="task_helper_app_killed">%1$s force stopped</string>
+    <string name="empty_app_killed">App</string>
+
+    <string name="app_picker_dialog_title">Select an app</string>
+    <string name="active_edge_app_select_title">Select app</string>
+    <string name="active_edge_activity_select_title">Select activity</string>
+
+    <!-- Name of the clock in status bar [CHAR LIMIT=30] -->
+    <string name="clock">Clock</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_dash_charging_time" formatted="false"><xliff:g id="percentage">%2$s</xliff:g> • Dash Charging (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> until full)</string>
+    <string name="keyguard_plugged_in_dash_charging">Dash Charging</string>
+
+    <!-- Indication on the keyguard that is shown when the device is charging with a warp charger. Should match keyguard_plugged_in_warp_charging [CHAR LIMIT=40]-->
+    <string name="keyguard_indication_warp_charging_time"><xliff:g id="percentage">%2$s</xliff:g> • Warp Charging (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%1$s</xliff:g> until full)</string>
+    <string name="keyguard_plugged_in_warp_charging"><xliff:g id="percentage">%s</xliff:g> • Warp Charging</string>
+
+    <!-- Reader mode QS tile -->
+    <string name="quick_settings_reading_mode">Reading mode</string>
+    <string name="accessibility_quick_settings_reading_mode_on">Reading mode on.</string>
+    <string name="accessibility_quick_settings_reading_mode_off">Reading mode off.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_on">Reading mode turned on.</string>
+    <string name="accessibility_quick_settings_reading_mode_changed_off">Reading mode turned off.</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Switch data card to</string>
+    <string name="qs_data_switch_changed_1">Using SIM 1 for Mobile data</string>
+    <string name="qs_data_switch_changed_2">Using SIM 2 for Mobile data</string>
+
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Sound</string>
+    <string name="quick_settings_sound_ring">Ring</string>
+    <string name="quick_settings_sound_vibrate">Vibrate</string>
+    <string name="quick_settings_sound_mute">Mute</string>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+
+    <!-- Face Unlock -->
+    <string name="face_unlock_recognizing">Recognizing face...</string>
+
+    <!-- Name of the nfc status bar icon. -->
+    <string name="status_bar_nfc" translatable="false">NFC</string>
+
+    <!-- Accessibility label for nfc icon (not shown on screen) [CHAR LIMIT=NONE] -->
+    <string name="accessibility_status_bar_nfc" translatable="false">NFC</string>
+
+</resources>
